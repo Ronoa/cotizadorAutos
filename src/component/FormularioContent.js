@@ -33,6 +33,7 @@ class FormularioContent extends Component{
         {id:"16",name:"2006"},
         {id:"17",name:"2007"},
         {id:"18",name:"2008"}];
+    // se puede realizar con un forech
     planventa=[
         {id:"0",name:"Seleccione..."},
         {id:"1",name:"Basico"},
@@ -43,9 +44,6 @@ class FormularioContent extends Component{
         añofab:{id:0,name:""},
         planventa:{id:0,name:""}
     }
-    // marcaRef = React.createRef();
-    // yearRef = React.createRef();
-    // planv =React.createRef();
     
     cotizarPlan = (e)=>{        
         e.preventDefault();

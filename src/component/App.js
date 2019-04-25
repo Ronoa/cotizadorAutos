@@ -32,7 +32,6 @@ class App extends Component {
     preciobase = parseFloat ( inncremento * preciobase).toFixed(2);
     console.log(preciobase)
     if(isNaN(preciobase)){
-      
       this.setState({isError: true,isHidden: true})
     }else{
       this.setState({result:preciobase,datos:autos,isHidden: false,isError: false})
